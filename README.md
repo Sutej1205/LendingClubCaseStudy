@@ -1,12 +1,16 @@
 # Project Name
 > Lending Club Case Study
+The primary objective of this exercise is to assist Lending Club in mitigating credit losses. This challenge arises from two potential scenarios:
+
+Identifying applicants likely to repay their loans is crucial, as they can generate profits for the company through interest payments. Rejecting such applicants would result in a loss of potential business.
+On the other hand, approving loans for applicants not likely to repay and at risk of default can lead to substantial financial losses for the company.
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* General Information(#general-information)
+* Conclusions(#technologies-used)
+* Technologies Used(#conclusions)
+* Acknowledgements(#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
