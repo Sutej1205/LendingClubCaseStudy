@@ -7,50 +7,46 @@ On the other hand, approving loans for applicants not likely to repay and at ris
 
 
 ## Table of Contents
-* General Information(#general-information)
-* Conclusions(#technologies-used)
-* Technologies Used(#conclusions)
-* Acknowledgements(#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
+* General Information
+* Conclusions
+* Technologies Used
+* Acknowledgements
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The primary objective of this exercise is to assist Lending Club in mitigating credit losses. This challenge arises from two potential scenarios:
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+1.Identifying applicants likely to repay their loans is crucial, as they can generate profits for the company through interest payments. Rejecting such applicants would result in a loss of potential business.
+2.On the other hand, approving loans for applicants not likely to repay and at risk of default can lead to substantial financial losses for the company.
+
+
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+1.Term Length: Given that applicants opting for 60-month loans are more likely to default, the company should consider evaluating the risk associated with longer-term loans and potentially limiting the maximum term or adjusting interest rates accordingly.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+2.Experience and Default Probability: Loan applicants with ten or more years of experience are more likely to default. This suggests that experience alone may not be a reliable indicator of creditworthiness. The company should use a more comprehensive credit scoring system that factors in other risk-related attributes.
+
+3.Positive Growth Trend: The steady increase in the number of loan applicants from 2007 to 2011 indicates growth in the market. The company can capitalize on this trend by maintaining a competitive edge in the industry while keeping risk management practices robust.
+
+4.Seasonal Trends: December and Q4 are peak periods for loan applications, likely due to the holiday season. The company should anticipate increased demand during these periods and ensure efficient processing to meet customer needs.
+
+5.Debt Consolidation Risk: Since debt consolidation is the category with the maximum number of loans and high default rates, the company should carefully evaluate applicants seeking debt consolidation loans and potentially adjust interest rates or offer financial counseling services.
+
+6.Housing Status and Default Risk: Applicants living in rented or mortgaged houses are more likely to default. This information can be considered in the underwriting process to assess housing stability and its impact on repayment ability.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+* Python - version 3.11.4
+* Matplotlib - version 3.7.1
+* Numpy - version 1.24.3
+* Pandas - version 1.5.3
+* Seaborn - version 0.12.2
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+UpGrad tutorials on Exploratory Data Analysis (EDA) on the learning platform
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by @sutej1205
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
